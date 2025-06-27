@@ -7,6 +7,7 @@ const accountSchema = new mongoose.Schema({
     name:String, 
     ifsc:String,
     city:String,
+    area:String,
     type:String
  }, {
      timestamps: true
